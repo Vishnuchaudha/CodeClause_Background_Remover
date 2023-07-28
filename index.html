@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Remover</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+   
+
+    <div class="container">
+      <h1>
+        Ｒє𝕞𝕆Ｖⓔ ＩⓂ𝐀𝐆ｅ 𝕓α𝓒к𝕘ᖇό𝕌ᑎĎ
+      </h1>
+      <!-- Add Card -->
+      <div class="card" id="addCard">
+        <button>
+          <input type="file" name="" id="fileInput" />
+          Upload Image
+        </button>
+        <p>𝘊𝘩𝘰𝘰𝘴𝘦 𝘢𝘯 𝘪𝘮𝘢𝘨𝘦 𝘵𝘰 𝘳𝘦𝘮𝘰𝘷𝘦 𝘣𝘢𝘤𝘬𝘨𝘳𝘰𝘶𝘯𝘥</p>
+      </div>
+      <!-- Display Card -->
+      <div class="card" id="displayCard">
+        <div class="image-cont">
+          <img
+            id="display-img"
+            src=""
+            alt=""
+          />
+        </div>
+        <button id="startBtn">Start</button>
+      </div>
+      <!-- Loading Card -->
+      <div class="card" id="loadingCard">
+        <div class="loader"></div>
+      </div>
+      <!-- Download Card -->
+      <div class="card" id="downloadCard">
+        <div class="image-cont">
+          <img
+            class="image-before"
+            src=""
+            alt=""
+          />
+          <img
+            class="image-after"
+            src=""
+            alt=""
+          />
+        </div>
+        <div style="display: flex; gap: 10px">
+          <!-- <button id="uploadAnother">Upload Another</button> -->
+          <button style="padding: 10px 40px">
+            <a id="downloadHref" download="transparentImage"> Download </a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
